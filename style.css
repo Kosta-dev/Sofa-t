@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --texto: #271A45;
+    --fundo: #D9CDF7;
+}
+
+body {
+    width: 875px;
+    height: 498px;
+    background-color: var(--fundo);
+}
+
+h1 {
+    font-family: "Crimson Pro", serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p, h1 {
+    color: var(--texto);
+}
+
+section {
+    display: block;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.imagem {
+    width: 449px;
+    height: 253px;
+}
+
+.codigo {
+    margin-bottom: 8px;
+}
+
+.titulo {
+    width: 274px;
+    height: 32px;
+    margin-bottom: 8px;
+}
+
+.preco {
+    margin-bottom: 8px;
+}
+
+.butao button {
+    width:  148px;
+    height:  32px;
+    padding: 8px, 16px, 8px, 16px;
+    background-color: var(--fundo);
+    color: var(--texto);
+    border: 1px solid var(--texto);
+    border-radius: 999px;
+    gap: 8px;
+}
+
